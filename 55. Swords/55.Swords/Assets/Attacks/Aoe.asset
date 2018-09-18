@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf76b88cb70f8e944945fe74b1abcfe4, type: 3}
+  m_Name: Aoe
+  m_EditorClassIdentifier: 
+  CoolDown: 1
+  Range: 10
+  minDamage: 20
+  maxDamage: 30
+  criticalMultiplier: 1
+  criticalChance: 0.1
+  Radius: 10
+  AoePrefab: {fileID: 1633674827421682, guid: 3e969a5cd40503648a43723dbb1c31f7, type: 2}
